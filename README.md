@@ -38,6 +38,14 @@ DATABASE_URL=postgres://postgres@127.0.0.1:5432/simple_api
 JWT_SECRET_KEY=secret_key
 ```
 
+### Migrate
+Setup your migration following by this command.
+```sh
+$ python3 manage.py db init
+$ python3 manage.py db migrate
+$ python3 manage.py db upgrade
+```
+
 ### Run Application
 For run application:
 ```sh
